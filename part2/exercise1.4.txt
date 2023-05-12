@@ -1,0 +1,8 @@
+1.	docker run -it sh -c 'while true; do echo "Input website:"; read website; echo "Searching.."; sleep 1; curl http://$website; done'
+	helsinki.fi
+
+2.	docker exec -it [container_id] sh
+	apt-get update
+	apt-get -y install curl
+
+
