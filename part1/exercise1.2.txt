@@ -1,5 +1,0 @@
-=========================================================================================================
-
-1. We have containers and an image that are no longer in use and are taking up space. Running docker ps -as and docker images will confirm this.
-
-REPOSITORY   TAG       IMAGE ID   CREATED   SIZE
